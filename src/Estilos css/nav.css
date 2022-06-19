@@ -1,0 +1,75 @@
+.barra-navegacion{
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    width: 100%;
+    
+  }
+  .navegacion-2{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+  }
+  .barra-navegacion a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: var(--familia-letras);
+    font-weight: var(--tamaño-letras-normal);
+    color: black;
+  }
+  .logoo{
+    width: fit-content;
+    height: fit-content;
+  }
+  
+  .botones {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: var(--familia-letras);
+  }
+  .register-button {
+    min-width: 130px;
+    height: 40px;
+    color: white;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 20px;
+    border: 2px solid #495057;
+    background: black;
+    text-decoration: none;
+  }
+  .register-button:hover {
+    background: #fff;
+    color: black
+  }
+  .login-button {
+    min-width: 130px;
+    height: 40px;
+    color:black;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 20px;
+    border: 2px solid #212529;
+    background: #fff;
+  }
+  .login-button:hover{
+    background: black;
+    color: white;
+  }
+
+
+
+  
